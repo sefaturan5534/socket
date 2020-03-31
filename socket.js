@@ -96,4 +96,4 @@ process.on('unhandledRejection', (reason, promise) => {
   process.exit(1);
 });
 
-console.log('Please open SSL URL: https://localhost:'+(process.env.PORT || 9559)+'/');
+console.log('Please open SSL URL: https://education.turansoftware.com:'+(process.env.PORT || 9559)+'/');
